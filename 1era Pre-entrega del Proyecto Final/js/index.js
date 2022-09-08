@@ -62,7 +62,7 @@ class CotizadorPostres {
         //Lista de Codigos de Descuento
         const listaCodigosDeDescuento = ["rebaja10", "rebaja15", "rebaja20"]
         if (this.cupon) {
-            let verificar = prompt("ingresa el código del cupón y obtén un descuento del 10%, 15% 0 20%")
+            let verificar = prompt("ingresa el código del cupón y obtén un descuento del 10%, 15% 0 20%").toLowerCase()
             while (verificar == listaCodigosDeDescuento[0]) {
                 return listaDescuento[0];
             }
