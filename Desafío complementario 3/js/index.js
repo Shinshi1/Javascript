@@ -36,7 +36,7 @@ class CotizadorPostres {
         this.cupon = cupon
     }
 
-    // valor() = nos permite saber el costo del postre atraves del nombre del mismo - OPTIMIZAR
+    // valor() = nos permite saber el costo del postre atraves del nombre del mismo
 
     valor() {
         for (const postre in listaPostre) {
