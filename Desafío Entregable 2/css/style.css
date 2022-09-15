@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600;700&family=IM+Fell+Great+Primer+SC&family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f3f3;
+    font-family: poppins, Arial, sans-serif;
+}
+
+.header-container {
+    height: 10vh;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #9583B6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-title {
+    text-align: center;
+    font-size: 2.3rem;
+    line-height: 2;
+    color: #111;
+}
+
+.icon {
+    transform: scale(1.5);
+}
+
+/* CARRITO inicio */
+.cart-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-toggle:active {
+    transform: scale(.9);
+}
+
+.table-carrito {
+    background-color: #000;
+    color: #fff;
+    max-height: auto;
+    min-height: 20%;
+    max-width: auto;
+    min-width: 40%;
+    margin: 1rem auto;
+    border-radius: 7px;
+    border-collapse: collapse;
+
+    position: fixed;
+    left: 100%;
+    top: 65px;
+
+    transition: left 0.3s;
+
+}
+
+/* mostrar carrito inicio */
+.table-carrito--visible {
+    position: fixed;
+    left: 60%;
+    top: 65px;
+
+    transition: left 0.3s;
+}
+/* mostrar carrito fin */
+
+.table-carrito thead tr{
+    background-color: #9583B6;
+    text-align: justify;
+    border-radius: 7px;
+    color: #000;
+}
+
+.table-carrito tbody tr:nth-child(even) {
+    background-color: #ddd;
+    color: #000;
+}
+
+.table-carrito tbody tr:hover {
+    background-color: #FFB6C1;
+    color: #000;
+    transition: .2s;
+    border-radius: 7px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* CARRITO fin */
+
+/* Buscador inicio */
+
+.sarch-container {
+
+    width: 70%;
+    border-radius: 5px;
+    margin: 1rem auto;
+
+}
+
+.search input {
+    width: 100%;
+    background-color: #f1e8e8;
+    color: #000;
+    border: none;
+    border-radius: 7px;
+    font-family: poppins, Arial, sans-serif;
+    font-size: 1rem;
+    outline: none;
+    display: block;
+}
+
+/* Buscador fin */
+
+/* Saludo de Bienvenida inicio */
+
+.bienvenida-container {
+    height: 150px;
+    width: 100%;
+    background-color: #777;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida-container h4 {
+    font-size: 2rem;
+    font-family: 'Cormorant', serif;;
+}
+
+/* Saludo de Bienvenida fin */
+
+
+/* ------- Sección 1 ------- */
+.catalogo-postres {
+    height: 70%;
+    width: auto;
+    background-color: #FFB6C1;
+    padding-bottom: 1rem;
+}
+
+.h2-title {
+    text-align: center;
+    line-height: 3;
+}
+
+/* tabla inicio */
+
+.table__container {
+    background-color: #999;
+    max-width: auto;
+    min-width: 90%;
+    margin: 1rem auto;
+    border-radius: 7px;
+    border-collapse: collapse;
+}
+
+.table__container thead {
+    background-color: #9583B6;
+    text-align: justify;
+}
+
+.table__container td {
+    border-bottom: solid 1px #aaa;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.table__container tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.table__container tbody tr:hover {
+    background-color: #555;
+    color: #f1e8e8;
+}
+
+/* tabla fin */
+
+
+
+/* footer */
+
+.btn {
+    font-family: poppins, Arial, sans-serif;
+    display: inline-block;
+}
+
+.btn-cart {
+    cursor: pointer;
+}
+
+.btn-cart:active {
+    transform: scale(.8);
+}

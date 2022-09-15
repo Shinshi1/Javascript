@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/carrito.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title>Desafío Entregable 2</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <h1 class="h1-title">Desafío Entregable 2</h1>
+        <button class="cart-toggle"><img src="./assets/cart.svg" alt="carrito" class="icon"></button>
+    </header>
+
+    <div class="bienvenida-container">
+        <h4 class="mensaje-bienvenida"></h4>
+    </div>
+
+    <div class="sarch-container">
+        <span class="search"><input type="search" id="filtroProducto"
+                placeholder="Ingresa parte del nombre del producto a buscar">
+        </span>
+    </div>
+
+    <!-- Catalogo de Postres inicio -->
+    <div class="catalogo-postres">
+
+        <h2 class="h2-title">Catalogo de Postres</h2>
+
+        <table class="table__container">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>ID</th>
+                    <th>Precio</th>
+                    <th>Categoria</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody id="tabla">
+
+            </tbody>
+        </table>
+
+    </div>
+    <!-- Catalogo de Postres fin -->
+
+
+    <!-- Carrito inicio -->
+    <div class="carrito">
+
+        <!-- <h2 class="h2-title">Carrito</h2> -->
+        <table class="table-carrito">
+            
+            <thead class="none">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+
+            <tbody id="tablaCarrito">
+
+            </tbody>
+        </table>
+
+    </div>
+    <!-- Carrito fin -->
+
+    <footer>
+        <a href="./pages/carrito.html"><button class="btn">Carrito</button></a>
+    </footer>
+
+</body>
+
+</html>
