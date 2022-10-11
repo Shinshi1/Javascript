@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "nombre": "TORTA DE CHOCOLATE",
+    "categoria": "TORTAS",
+    "imagen": "../img/torta-de-chocolate.jpg", 
+    "importe": 4100 
+    },
+    {
+    "id": 2,
+    "nombre": "TIRAMISÚ",
+    "categoria": "TORTAS",
+    "imagen": "../img/tiramisu-13.jpg", 
+    "importe": 4100 
+    },
+    {
+    "id": 3,
+    "nombre": "RICOTA",
+    "categoria": "TARTAS",
+    "imagen": "../img/tarta-de-ricota123.jpg", 
+    "importe": 2360
+    },
+    {
+    "id": 4,
+    "nombre": "PASTAFROLA",
+    "categoria": "TARTAS",
+    "imagen": "../img/pastafrola.jpg", 
+    "importe": 1500
+    },
+    {
+    "id": 5,
+    "nombre":  "LEMON PIE",
+    "categoria": "POSTRES",
+    "imagen": "../img/lemon-pie.jpg", 
+    "importe": 3800
+    },
+    {
+    "id": 6,
+    "nombre":  "BROWNIE CON MOUSSE DE CHOCOLATE",
+    "categoria": "POSTRES",
+    "imagen": "../img/brownie-mousse-chocolate.jpg", 
+    "importe": 4300
+    }
+]
