@@ -262,14 +262,12 @@ const confirmar = (mensaje) => {
 
 //CARDS
 const mostrarCard = (contenido) => {
-    const {id, nombre, imagen, categoria} = contenido
+    const {nombre, imagen, categoria, descripcion} = contenido
     return `<div class="card">
                 <img src="img/${imagen}" title="${nombre} - ${categoria} -"
                 <div>
-                <p title ="${nombre}">${nombre} </p>
-                <div>
-                    <button id= "${id}" class="card-button" > AGREGAR </button>
-                </div>
+                <p title ="${nombre}"><strong>${nombre}</strong> </p>
+                <p title ="descripcion de ${nombre}">${descripcion} </p>
                 </div>
             </div>`
                 
@@ -277,7 +275,7 @@ const mostrarCard = (contenido) => {
 }
 //Fetch
 
-const cargarContenido = async() => {
+const cargarInfo = async() => {
     try {
         const response = await fetch(URL)
         const data = await response.json()
@@ -292,5 +290,4 @@ const cargarContenido = async() => {
         cardContainer.innerHTML = contenidoHTML
     }
 }
-
-cargarContenido()
+cargarInfo()

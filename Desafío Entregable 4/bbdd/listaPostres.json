@@ -4,41 +4,47 @@
     "nombre": "TORTA DE CHOCOLATE",
     "categoria": "TORTAS",
     "imagen": "../img/torta-de-chocolate.jpg", 
-    "importe": 4100 
+    "importe": 4100,
+    "descripcion": "Tradicional combinación italiana de bizcochuelo humedecido con licor al café, queso crema, crema chantilly, espolvoreado con cacao amargo."
     },
     {
     "id": 2,
     "nombre": "TIRAMISÚ",
     "categoria": "TORTAS",
     "imagen": "../img/tiramisu-13.jpg", 
-    "importe": 4100 
+    "importe": 4100,
+    "descripcion": "Tradicional combinación italiana de bizcochuelo humedecido con licor al café, queso crema, crema chantilly, espolvoreado con cacao amargo. Presentación x 600 gr."
     },
     {
     "id": 3,
     "nombre": "RICOTA",
     "categoria": "TARTAS",
     "imagen": "../img/tarta-de-ricota123.jpg", 
-    "importe": 2360
+    "importe": 2360,
+    "descripcion": "Diametro de 24 cm. Porciones para 10 a 12 personas Abundante relleno de Ricota"
     },
     {
     "id": 4,
     "nombre": "PASTAFROLA",
     "categoria": "TARTAS",
     "imagen": "../img/pastafrola.jpg", 
-    "importe": 1500
+    "importe": 1500,
+    "descripcion": "La pastafrola es una tarta artesanal típica de la gastronomía Argentina. Se compone de una masa cubierta tradicionalmente con dulce de batata o dulce de membrillo o dulce de leche."
     },
     {
     "id": 5,
     "nombre":  "LEMON PIE",
     "categoria": "POSTRES",
     "imagen": "../img/lemon-pie.jpg", 
-    "importe": 3800
+    "importe": 3800,
+    "descripcion": "Masa fina crocante con crema de limón y merengue italiano. (175gr)"
     },
     {
     "id": 6,
     "nombre":  "BROWNIE CON MOUSSE DE CHOCOLATE",
     "categoria": "POSTRES",
     "imagen": "../img/brownie-mousse-chocolate.jpg", 
-    "importe": 4300
+    "importe": 4300,
+    "descripcion": "Brownies de Chocolate sin Tacc x 400gr"
     }
 ]
